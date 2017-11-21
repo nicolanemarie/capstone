@@ -1,0 +1,429 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+h1 {
+	color: #4d4d4d;
+  font-weight: bold;
+  font-size: 4em;
+  text-align: left;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+h2 {
+	color: inherit;
+  font-weight: bold;
+  font-size: 3em;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+h3 {
+  color: #4d4d4d;
+  font-size: 2em;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+
+h4 {
+  color: gray;
+  font-size: 1em;
+	font-weight: normal;
+  text-align: left;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+
+p {
+  font-size: 1.2em;
+  color: gray;
+  text-align: left;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+
+img {
+	max-width: 100%;
+}
+
+header .desktop {
+   display: block;
+   align-items: center;
+   width: 100%;
+   padding: 24px 32px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header img {
+  padding-left: 24px;
+  height: 4rem;
+}
+
+.firstword {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.lastword {
+  color: #8c8c8c;
+  font-weight: normal;
+  font-size: 2rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav {
+  display: block;
+  flex-grow: 1;
+  text-align: right;
+  padding-left: 16px;
+}
+
+nav a {
+    color: black;
+}
+
+header .mobile {
+  display: none;
+}
+
+#first {
+	display: flex;
+	align-items: center;
+  background-color: #cccccc;
+  position: relative;
+  justify-content: center;
+
+}
+
+.banner {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.learn {
+  width: 40%;
+  padding-bottom: 32px;
+}
+
+.button {
+  font-size: 2em;
+  padding: 8px 0;
+  display: block;
+  position: absolute;
+	bottom: 150px;
+	width: 500px;
+	text-align: center;
+  background-color: #515151;
+  color: white;
+}
+
+#second {
+	display: flex;
+	align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.practice {
+  width: 60%;
+  flex-direction: column;
+  padding: 32px 24px;
+  text-align: left;
+  color: #4f4a4a;
+}
+
+.column {
+  width: 40%;
+	flex-direction: column;
+	align-items: left;
+	display: flex;
+	border-left: 1px #D6DBDF solid;
+  justify-content: space-between;
+}
+
+.column img {
+  width: 35%;
+	height: auto;
+}
+
+#orientation {
+	display: flex;
+	text-align: left;
+	padding-left: 16px;
+  padding-bottom: 8px;
+	color: #4f4a4a;
+}
+
+#campus {
+	display: flex;
+	text-align: left;
+	padding-left: 16px;
+	padding-bottom: 8px;
+	color: #4f4a4a;
+}
+
+#guest {
+	display: flex;
+	padding-top: 16px;
+	text-align: left;
+	padding-left: 16px;
+	color: #4f4a4a;
+  padding-right: 24px;
+  background-color: gainsboro;
+}
+
+.image-right {
+  display: flex;
+  padding: 16px;
+  color: #4f4a4a;
+  height: auto;
+}
+
+.read-more {
+  color: #66b3ff;
+  padding-left: 24px;
+}
+
+#cubes {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  background-color: #E5E7E9;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+#cubes h1 {
+  text-align: center;
+}
+
+.boxcubes {
+  margin: auto;
+	padding-bottom: 32px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+  color: #4f4a4a;
+}
+
+.top-image {
+  max-width: 25%;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  height: auto;
+}
+
+.toptext {
+  background-color: white;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  color: inherit;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  color: #4f4a4a;
+}
+
+.bottom-image {
+  max-width: 25%;
+  padding-right: 32px;
+}
+
+.bottomtext {
+  background-color: white;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  color: inherit;
+}
+.cubes-mobile {
+  display: none;
+}
+
+#thesis {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+#thesis h1 {
+  text-align: center;
+}
+
+.thesis-body {
+  display: flex;
+}
+
+#thesis-main {
+  display: flex;
+  background-color: #F4F6F6;
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	padding-top: 32px;
+	padding-right: 16px;
+	padding-bottom: 32px;
+  width: 60%;
+}
+
+.thesis-video {
+  padding-right: 16px;
+	color: #4f4a4a;
+  text-align: left;
+  padding-left: 24px;
+}
+
+.thesis-text {
+  text-align: left;
+  color: inherit;
+  padding: 8px;
+}
+
+.thesis-body-right {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 24px;
+}
+
+.fisma-main {
+  background-color: #E5E7E9;
+	padding-top: 16px;
+  display: flex;
+}
+
+.thesis-body-right img {
+  width: 35%;
+	height: auto;
+}
+
+.fisma-sub {
+  text-align: left;
+  padding-left: 16px;
+  color: inherit;
+}
+
+.ny-main {
+  display: flex;
+}
+
+.ny-sub {
+  text-align: left;
+	padding-left: 16px;
+	color: inherit;
+}
+
+nav {
+	background-color: white;
+	color: #F404040;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+  align-self: flex-end;
+}
+
+footer {
+	display: inline-block;
+  text-align: left;
+	padding-top: 16px;
+	width: 100%;
+	background-color: white;
+	padding-left: 24px;
+	font-size: 12px;
+	color: gray;
+  align-content: center;
+}
+
+footer nav {
+	padding-right: 24px;
+	color: gray;
+  justify-content: flex-end;
+  align-self: flex-start;
+}
+
+@media only screen and (max-width: 480px) {
+  header h1 {
+    display: none
+  }
+  header img {
+    display: none
+  }
+  .mobile img {
+  display: inline-block;
+  position: fixed
+ }
+ div .mobile {
+  width: 100%;
+  background-color: white;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: lightgray;
+  height: 64px;
+  text-align: left
+ }
+ div .mobile nav {
+  display: inline-block;
+  justify-content: flex-start
+ }
+  #learn .banner {
+   display: none
+ }
+  #learn  {
+   padding-bottom: 88px;
+   margin-top: 0
+ }
+  .top-image {
+   display: none;
+}
+  .boxcubes {
+   background-color: white
+}
+  .thesis-body-right {
+   display: none
+}
+  .thesistext {
+   display: none
+}
+  footer nav {
+   display: none;
+}
+
+@media only screen and (max-width: 1600px) {
+  .desktop {
+    display: block;
+    width: 100%;
+    padding: 24px 32px;
+    align-items: center;
+  }
+ }
